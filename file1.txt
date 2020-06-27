@@ -1,0 +1,2 @@
+Git add can add different files each time;
+but commit can add many files one time.
