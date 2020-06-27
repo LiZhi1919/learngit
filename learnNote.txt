@@ -1,0 +1,15 @@
+6.27 Git 学习
+mkdir #### 创建目录
+cd 	  #### 转换目录
+pwd
+git init 
+#————————————#
+git add				  单提交
+git commit -m“######” 总提交
+git status 			  查看当前状态
+git diff 			  查看改动细节
+git log 			  查看commit历史
+git log --pretty=oneline 简化上一步
+git reset --hard HEAD^(HEAD~100) 退回到某个版本
+git reset --hard commit_id
+git reflog			  查看命令历史
