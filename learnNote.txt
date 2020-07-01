@@ -1,8 +1,8 @@
 6.27 Git 学习
 mkdir #### 创建目录
 cd 	  #### 转换目录
-pwd
-git init 
+git init 将当前目录变为git的目录
+pwd	  显示当前git目录路径
 #————————————#
 git add				  单提交
 git commit -m“######” 总提交
@@ -13,3 +13,5 @@ git log --pretty=oneline 简化上一步
 git reset --hard HEAD^(HEAD~100) 退回到某个版本
 git reset --hard commit_id
 git reflog			  查看命令历史
+
+7.1  Git学习
